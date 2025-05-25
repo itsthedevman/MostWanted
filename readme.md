@@ -1,5 +1,7 @@
 # Most Wanted: An Exile Bounty Mod
 
+Note: This is an archive of an old project of mine
+
 ### Features
 * Exile security
 * Made with Exile's UI in mind
@@ -33,7 +35,7 @@
 
     Add `#include "MostWanted_Client\Notifications.hpp` in `class CfgHints` so it looks kind of like what is below.
 
-    If you don't have `class CfgHints` or `class CfgNetworkMessages`, in your `config.cpp`, add this at the top. 
+    If you don't have `class CfgHints` or `class CfgNetworkMessages`, in your `config.cpp`, add this at the top.
 
         class CfgHints
         {
@@ -78,12 +80,12 @@ Most Wanted has a few configuration options, they are inside `MostWanted_Client\
 
 
 ### Update to version 1.5 for Exile 0.9.8
-1. PBO MostWanted_Server and replace the one in your `@ExileServer\addons\` folder with it. 
+1. PBO MostWanted_Server and replace the one in your `@ExileServer\addons\` folder with it.
 2. In your mission folder:
-	1. Replace EVERY file in the `MostWanted_Client\functions\` folder with the ones from the same folder on the github. 
+	1. Replace EVERY file in the `MostWanted_Client\functions\` folder with the ones from the same folder on the github.
 	2. Update the overwrites in `MostWanted_Client\overwrites\` folder with the ones from the same folder on the github.
-2. Remove overwrite line for ExileServer_system_network_dispatchIncomingMessage.sqf in config.cpp (Exile has this by default now) 
-	1. After this, you can delete this file from your mission folder. 
+2. Remove overwrite line for ExileServer_system_network_dispatchIncomingMessage.sqf in config.cpp (Exile has this by default now)
+	1. After this, you can delete this file from your mission folder.
 
 ### SERVER OWNERS, PLEASE READ
 A note on exploiting. A lot of time and effort went into making sure exploiting was difficult and a pain in the ass to do with this script. If you find an exploit or notice players finding exploits, **DO NOT POST THEM ON THE EXILE FORUMS OR IN THE TOPIC COMMENTS**.
